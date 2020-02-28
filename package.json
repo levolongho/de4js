@@ -1,0 +1,40 @@
+{
+  "name": "de4js",
+  "version": "1.6.0",
+  "description": "JavaScript Deobfuscator and Unpacker",
+  "main": "/assets/js/main.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve --watch",
+    "build": "bundle exec jekyll build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelinhtinh/de4js.git"
+  },
+  "keywords": [
+    "deobfuscator",
+    "deobfuscate",
+    "deobfuscation",
+    "unpacker",
+    "decode",
+    "decrypt",
+    "javascript",
+    "online-tools"
+  ],
+  "author": "Zzbaivong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelinhtinh/de4js/issues"
+  },
+  "homepage": "https://lelinhtinh.github.io/de4js/",
+  "devDependencies": {
+    "eslint-plugin-frontmatter": "0.0.8"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "highlight.js": "^9.15.10",
+    "js-beautify": "^1.10.2",
+    "magic-check": "^1.0.3"
+  }
+}
